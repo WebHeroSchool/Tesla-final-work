@@ -23,8 +23,8 @@
   align-items: center;
 }
 
-.menu_1,
-.menu_2 {
+.menu-1,
+.menu-2 {
   padding: 0;
   /*margin: 24 px 60px 0 43px;*/
   display: flex;
@@ -32,7 +32,7 @@
   list-style: none;
 }
 
-.menu_2,
+.menu-2,
 .menu__item {
   margin: 0px 30px;
 }
@@ -70,7 +70,7 @@ menu-item.active {
   margin-right: 46px;
 }
 
-.tesla_title {
+.tesla {
   text-align: center;
   background-image: url(../img/Tesla_logocar.png);
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ menu-item.active {
   margin-bottom: 26px;
 }
 
-.tesla_title h1 {
+.tesla__title {
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -87,17 +87,11 @@ menu-item.active {
   line-height: 110px;
 }
 
-.tesla_title p {
+.tesla__text{
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
 }
-
-/*.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
 
 .tesla_info {
   display: flex;
@@ -112,13 +106,13 @@ menu-item.active {
   margin-right: 81px;
 }
 
-.info_block_img {
+.info_block__img {
   width: 46px;
   /*height: 100%;*/
   margin-right: 14px;
 }
 
-.info_block_text1 {
+.info_block__text_1 {
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
@@ -126,14 +120,14 @@ menu-item.active {
   margin-bottom: 13px;
 }
 
-.info_block_text1 span {
+.info_block__text_1 span {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   vertical-align: middle;
 }
 
-.info_block_text2 {
+.info_block__text_2 {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
@@ -151,7 +145,7 @@ menu-item.active {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.test_drive img {
+.test_drive__img {
   margin-right: 7px;
 }
 
@@ -182,7 +176,7 @@ menu-item.active {
     display: none;
   }
 
-  .tesla_title {
+  .tesla {
     min-height: 435px;
     background-size: contain;
     background-position: center bottom;
@@ -198,12 +192,12 @@ menu-item.active {
     margin: 24px 33px 94px 15px;
   }
 
-  .tesla_title h1 {
+  .tesla__title {
     font-size: 90px;
     line-height: 110px;
   }
 
-  .tesla_title p {
+  .tesla__text {
     font-size: 15px;
     line-height: 18px;
   }
@@ -214,25 +208,21 @@ menu-item.active {
     margin-bottom: 56px;
   }
 
-  /* .info_block:nth-child(2){
-    margin-right:0px;
-  }*/
-
-  .info_block:nth-child(2) .info_block_img {
+  .info_block:nth-child(2) .info_block__img {
     width: 38px;
   }
 
-  .info_block_img {
+  .info_block__img {
     width: 65px;
   }
 
-  .info_block_text1 {
+  .info_block__text_1 {
     font-size: 50px;
     line-height: 61px;
     margin-bottom: 2px;
   }
 
-  .info_block_text2 {
+  .info_block__text_2 {
     font-size: 12px;
     line-height: 15px;
   }
@@ -246,7 +236,7 @@ menu-item.active {
     filter: none;
   }
 
-  .test_drive img {
+  .test_drive__img {
     width: 30px;
     height: 30px;
     color: #E51937;
@@ -271,7 +261,7 @@ menu-item.active {
     display: none;
   }
 
-  .tesla_title {
+  .tesla {
     min-height: 300px;
     background-size: contain;
     background-position: center bottom;
@@ -286,12 +276,12 @@ menu-item.active {
     margin: 5px 21px 43px 2px;
   }
 
-  .tesla_title h1 {
+  .tesla__title{
     font-size: 50px;
     line-height: 61px;
   }
 
-  .tesla_title p {
+  .tesla__text {
     font-size: 10px;
     line-height: 12px;
   }
@@ -306,13 +296,13 @@ menu-item.active {
     margin-left: 20px;
   }
 
-  .info_block_text1 {
+  .info_block__text_1 {
     font-size: 27px;
     line-height: 27px;
     margin-bottom: 2px;
   }
 
-  .info_block_text2 {
+  .info_block__text_2 {
     font-size: 10px;
     line-height: 10px;
   }
@@ -352,30 +342,29 @@ menu-item.active {
   height: 876px;
 }
 
-.main-top h3 {
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 37px;
-  margin: 0;
-}
-
-.main-top p {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-  margin: 0;
-  margin-top: 11px;
-  margin-bottom: 54px;
-}
-
-
-.left-section h2 {
+.left-section__title {
   position: absolute;
   margin-left: 80px;
   font-weight: 600;
   font-size: 70px;
   line-height: 85px;
   color: #E51937;
+}
+
+.main-top__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  margin: 0;
+}
+
+.main-top__text{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 11px;
+  margin-bottom: 54px;
 }
 
 .right-section {
@@ -435,10 +424,6 @@ menu-item.active {
     padding: 55px 50px 50px 30px;
   }
 
-  .main-top-inner {
-    display: flex;
-  }
-
   .main-top {
     width: 320px;
     margin-right: 70px;
@@ -473,14 +458,14 @@ menu-item.active {
     flex-direction: column;
   }
 
-  .left-section h2,
+  .left-section__title,
   .left-section,
   .features-box,
   .main-bottom {
     display: none;
   }
 
-  .main-top p {
+  .main-top__text{
     margin-bottom: 0;
   }
 }
@@ -495,21 +480,21 @@ menu-item.active {
   background: #E51937;
 }
 
-.footer__left-head h3 {
+.footer__left_head_title {
   margin: 51px 68px 12px 56px;
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
 }
 
-.footer__left-head p {
+.footer__left_head_text {
   margin: 0 68px 49px 56px;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
 }
 
-.footer__left-body h3 {
+.footer__left_body_title {
   margin-left: 56px;
   margin-bottom: 29px;
   font-weight: 600;
@@ -562,37 +547,37 @@ menu-item.active {
   text-transform: uppercase;
 }
 
-.footer__left-bottom {
+.footer__left_bottom {
   margin-top: 111px;
   margin-left: 66px;
 }
 
-.footer__left-bottom .features {
+.footer__left_bottom .features {
   margin-bottom: 54px;
 }
 
-.footer__left-bottom .feature__text-box {
+.footer__left_bottom .feature__text-box {
   margin-left: 23px;
 }
 
-.footer__left-bottom .features_title {
+.footer__left_bottom .features_title {
   font-weight: 600;
   font-size: 50px;
   line-height: 61px;
 }
 
 
-.footer__left-bottom .features__text {
+.footer__left_bottom .features__text {
   font-weight: 600;
   font-size: 25px;
   line-height: 30px
 }
 
-.footer__left-bottom .main-bottom {
+.footer__left_bottom .main-bottom {
   margin: 0 55px 60px -28px;
 }
 
-.footer__left-bottom .information {
+.footer__left_bottom .information {
   margin-right: 36px;
 }
 
@@ -652,11 +637,11 @@ menu-item.active {
     order: 2;
   }
 
-  .footer__left-bottom .features {
+  .footer__left_bottom .features {
     display: none;
   }
 
-  footer__left-head {
+  footer__left_head {
     width: 316px;
   }
 
@@ -710,24 +695,24 @@ menu-item.active {
     width: 176px;
   }
 
-  .footer__left-head,
-  .footer__left-body {
+  .footer__left_head,
+  .footer__left_body {
     width: 50%;
   }
 
-  .footer__left-head{
+  .footer__left_head{
     padding-left: 34px;
     padding-top: 63px;
     padding-right: 30px;
   }
 
-  .footer__left-body{
+  .footer__left_body{
     padding-left: 30px;
     padding-right: 55px;
     padding-top: 63px;
   }
 
-  .footer__left-head h3 {
+  .footer__left_head_title {
     margin: 0;
     margin-bottom: 12px;
     font-weight: 600;
@@ -735,7 +720,7 @@ menu-item.active {
     line-height: 37px;
   }
 
-  .footer__left-head p {
+  .footer__left_head_text {
     margin: 0;
     margin: 0 68px 49px 56px;
     font-weight: 500;
@@ -743,7 +728,7 @@ menu-item.active {
     line-height: 18px;
   }
 
-  .footer__left-body h3 {
+  .footer__left_body_title {
     margin: 0;
     margin-top: 63px;
     margin-left: 0px;
@@ -760,23 +745,23 @@ menu-item.active {
 
   }
 
-  .footer__left-bottom{
+  .footer__left_bottom{
     width: 100%;
     margin: 70px auto 64px;
   }
 
-  .footer__left-bottom .main-bottom{
+  .footer__left_bottom .main-bottom{
     margin: 0;
   }
 
-  .footer__left-bottom .information{
+  .footer__left_bottom .information{
     margin: 0;
     margin-right: 36px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .footer__left-bottom .order{
+  .footer__left_bottom .order{
     font-size: 16px;
     line-height: 55px;
     width: 220px;
@@ -798,8 +783,8 @@ menu-item.active {
     order: 2;
   }
   
-  .footer__left-body, 
-  .footer__left-bottom{
+  .footer__left_body, 
+  .footer__left_bottom{
     display: none;
   }
 
@@ -809,12 +794,12 @@ menu-item.active {
     width: 360px;
   }
 
-  .footer__left-head h3{
+  .footer__left_head_title {
     margin: 18px 22px 11px;
 
   }
 
-  .footer__left-head p{
+  .footer__left_head_text {
     margin: 0 22px 50px;
 
   }
