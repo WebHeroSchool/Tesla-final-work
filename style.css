@@ -13,12 +13,10 @@
 .container {
   width: 1440px;
   margin: 0 auto;
-  border: 2px solid orangered;
 }
 
 .nav {
   display: flex;
-  /*margin: 24 px 60px 0 43px;*/
   justify-content: space-between;
   align-items: center;
 }
@@ -26,7 +24,6 @@
 .menu-top,
 .menu-right {
   padding: 0;
-  /*margin: 24 px 60px 0 43px;*/
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -108,7 +105,6 @@
 
 .info-block__img {
   width: 46px;
-  /*height: 100%;*/
   margin-right: 14px;
 }
 
@@ -327,7 +323,6 @@
 
 .main {
   margin-top: 37px;
-  /*min-height: 900px;*/
   color: #fff;
 }
 
@@ -526,7 +521,6 @@
   left: -95px;
 }
 
-
 .rating {
   margin-left: 56px;
   margin-right: 93px;
@@ -565,7 +559,6 @@
   font-size: 50px;
   line-height: 61px;
 }
-
 
 .footer__left_bottom .features__text {
   font-weight: 600;
